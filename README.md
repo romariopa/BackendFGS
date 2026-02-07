@@ -23,6 +23,19 @@ API Backend desarrollada en NestJS para la simulación de productos financieros 
 - **Documentación**: Swagger / OpenAPI
 - **Integración**: Google reCAPTCHA API
 
+## ⚠️ Importante: Orden de Ejecución
+
+Este backend debe iniciarse **ANTES** que el frontend para que la aplicación cliente pueda conectarse correctamente a los servicios.
+
+## 🔑 Variables de Entorno
+
+El proyecto requiere configuración de entorno. Crea un archivo `.env` en la raíz del proyecto `backend/`:
+
+```bash
+# Puerto donde correrá el servidor (Por defecto: 3000)
+PORT=3000
+```
+
 ## 🚀 Instalación y Ejecución
 
 1. **Instalar dependencias**
